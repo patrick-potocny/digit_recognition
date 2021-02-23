@@ -12,4 +12,4 @@ split_train = current_wd / 'data/split/train_df.csv'
 split_test = current_wd / 'data/split/test_df.csv'
 split_test_y_true = current_wd / 'data/split/test_df_y_true.csv'
 
-
+predictions_csv = current_wd / 'data/predictions/predictions.csv'

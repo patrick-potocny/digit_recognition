@@ -32,7 +32,7 @@ def transform_pred_data(path):
          them ready for evaluationg on model."""
     X_test = pd.read_csv(path)
     X_test  = X_test / 255
-    X_test = X_test.values.reshape(-1, 28, 28,1)
+    X_test = X_test.values.reshape(-1, 28, 28, 1)
     # plt.imshow(X_test[2]) for testing if data was reshaped properly
     print(X_test.shape)
 
